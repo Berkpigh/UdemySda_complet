@@ -10,8 +10,10 @@ namespace sda.backend.minimalapi.Core.Auths.IF
     /// <summary>
     /// Contrat pour récupérer la liste des authenticationuser
     /// </summary>
-    public interface IGetAllAuthService
+    public interface IGetAuthService
     {
         IEnumerable<AuthenticationUser> GetAll();
+
+        AuthenticationUser? GetOne(string email);
     }
 }

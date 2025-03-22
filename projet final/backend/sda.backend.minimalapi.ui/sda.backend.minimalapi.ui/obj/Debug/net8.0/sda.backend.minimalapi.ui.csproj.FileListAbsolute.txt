@@ -552,4 +552,3 @@ D:\_UDEMY\TutorialSec4A18_COMPLET\projet final\backend\sda.backend.minimalapi.ui
 D:\_UDEMY\TutorialSec4A18_COMPLET\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.pdb
 D:\_UDEMY\TutorialSec4A18_COMPLET\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.genruntimeconfig.cache
 D:\_UDEMY\TutorialSec4A18_COMPLET\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\ref\sda.backend.minimalapi.ui.dll
-D:\_UDEMY\TutorialSec4A18_COMPLET\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

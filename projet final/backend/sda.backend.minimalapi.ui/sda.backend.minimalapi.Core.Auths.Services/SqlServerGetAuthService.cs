@@ -6,14 +6,14 @@ namespace sda.backend.minimalapi.Core.Games.Services
 {
     namespace sda.backend.minimalapi.Core.Auths.Services
     {
-        public class SqlServerGetAllAuthService : IGetAllAuthService
+        public class SqlServerGetAuthService : IGetAuthService
         {
 
 
             private readonly AuthenticationDbContext _dbContext;
 
             #region Constructors
-            public SqlServerGetAllAuthService(AuthenticationDbContext context)
+            public SqlServerGetAuthService(AuthenticationDbContext context)
             {
                 _dbContext = context;
             }
@@ -29,7 +29,14 @@ namespace sda.backend.minimalapi.Core.Games.Services
                 //return this._dbContext.Games.Where(item => item.Character != null).ToList();
                 return query.ToList();
             }
+            public AuthenticationUser? GetOne(string email)
+            {
+                AuthenticationUser? authuser = _dbContext.AuthenticationUsers
+                                               .Where(au => au.NormalizedEmail == email.ToUpper()).FirstOrDefault();
+                return authuser;
+            }
             #endregion
         }
     }
 }
+//return this._dbContext.Games.Where(item => item.Character != null).ToList();

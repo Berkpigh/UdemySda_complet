@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8FA8236-9017-4824-86D4-2DD822ABD196}|sda.backend.minimalapi.Core.Auths.Services\\sda.backend.minimalapi.Core.Auths.Services.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.auths.services\\authenticationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8FA8236-9017-4824-86D4-2DD822ABD196}|sda.backend.minimalapi.Core.Auths.Services\\sda.backend.minimalapi.Core.Auths.Services.csproj|solutionrelative:sda.backend.minimalapi.core.auths.services\\authenticationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F333098D-4AF0-4B28-86A5-1F6A0DB3B2CD}|sda.backend.minimalapi.Core.Auths.IF\\sda.backend.minimalapi.Core.Auths.IF.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.auths.if\\igetauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F333098D-4AF0-4B28-86A5-1F6A0DB3B2CD}|sda.backend.minimalapi.Core.Auths.IF\\sda.backend.minimalapi.Core.Auths.IF.csproj|solutionrelative:sda.backend.minimalapi.core.auths.if\\igetauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A76306-E86C-4586-BA30-23A67100FD69}|sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui\\creationuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A76306-E86C-4586-BA30-23A67100FD69}|sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui.csproj|solutionrelative:sda.backend.minimalapi.ui\\creationuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8FA8236-9017-4824-86D4-2DD822ABD196}|sda.backend.minimalapi.Core.Auths.Services\\sda.backend.minimalapi.Core.Auths.Services.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.auths.services\\sqlservergetauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8FA8236-9017-4824-86D4-2DD822ABD196}|sda.backend.minimalapi.Core.Auths.Services\\sda.backend.minimalapi.Core.Auths.Services.csproj|solutionrelative:sda.backend.minimalapi.core.auths.services\\sqlservergetauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +43,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationDbContext.cs",
+              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Services\\AuthenticationDbContext.cs",
+              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Auths.Services\\AuthenticationDbContext.cs",
+              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Services\\AuthenticationDbContext.cs",
+              "RelativeToolTip": "sda.backend.minimalapi.Core.Auths.Services\\AuthenticationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:24:48.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreationUserEndpoints.cs",
+              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui\\CreationUserEndpoints.cs",
+              "RelativeDocumentMoniker": "sda.backend.minimalapi.ui\\CreationUserEndpoints.cs",
+              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui\\CreationUserEndpoints.cs",
+              "RelativeToolTip": "sda.backend.minimalapi.ui\\CreationUserEndpoints.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wCAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:06:49.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGetAuthService.cs",
+              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.IF\\IGetAuthService.cs",
+              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Auths.IF\\IGetAuthService.cs",
+              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.IF\\IGetAuthService.cs",
+              "RelativeToolTip": "sda.backend.minimalapi.Core.Auths.IF\\IGetAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:04:27.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SqlServerGetAuthService.cs",
+              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Services\\SqlServerGetAuthService.cs",
+              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Auths.Services\\SqlServerGetAuthService.cs",
+              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Services\\SqlServerGetAuthService.cs",
+              "RelativeToolTip": "sda.backend.minimalapi.Core.Auths.Services\\SqlServerGetAuthService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA3wCUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:03:08.104Z",
+              "EditorCaption": ""
             }
           ]
         }

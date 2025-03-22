@@ -13,18 +13,5 @@ namespace sda.backend.minimalapi.Core.Auths.Models
         {
         }
         #endregion
-
-        #region  Internal methods
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<AuthenticationUser>().ToTable("AspNetUsers");
-        }
-        #endregion
-
-        #region Properties
-        public DbSet<AuthenticationUser> AuthenticationUsers { get; set; }
-        #endregion
     }
 }

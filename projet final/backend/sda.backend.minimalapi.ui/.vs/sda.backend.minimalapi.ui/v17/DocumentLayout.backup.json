@@ -1,48 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A8FA8236-9017-4824-86D4-2DD822ABD196}|sda.backend.minimalapi.Core.Auths.Services\\sda.backend.minimalapi.Core.Auths.Services.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.auths.services\\sqlservergetallauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8FA8236-9017-4824-86D4-2DD822ABD196}|sda.backend.minimalapi.Core.Auths.Services\\sda.backend.minimalapi.Core.Auths.Services.csproj|solutionrelative:sda.backend.minimalapi.core.auths.services\\sqlservergetallauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8FA8236-9017-4824-86D4-2DD822ABD196}|sda.backend.minimalapi.Core.Auths.Services\\sda.backend.minimalapi.Core.Auths.Services.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.auths.services\\authenticationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8FA8236-9017-4824-86D4-2DD822ABD196}|sda.backend.minimalapi.Core.Auths.Services\\sda.backend.minimalapi.Core.Auths.Services.csproj|solutionrelative:sda.backend.minimalapi.core.auths.services\\authenticationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77354EEF-75DB-4F93-AD5D-90AC801B492A}|sda.backend.minimalapi.Core.Games.Services\\sda.backend.minimalapi.Core.Games.Services.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.games.services\\models\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77354EEF-75DB-4F93-AD5D-90AC801B492A}|sda.backend.minimalapi.Core.Games.Services\\sda.backend.minimalapi.Core.Games.Services.csproj|solutionrelative:sda.backend.minimalapi.core.games.services\\models\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE7B50BA-1E8D-44C6-9824-E2AE5ABFE947}|sda.backend.minimalapi.Core.Auths.Models\\sda.backend.minimalapi.Core.Auths.Models.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.auths.models\\authenticationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE7B50BA-1E8D-44C6-9824-E2AE5ABFE947}|sda.backend.minimalapi.Core.Auths.Models\\sda.backend.minimalapi.Core.Auths.Models.csproj|solutionrelative:sda.backend.minimalapi.core.auths.models\\authenticationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE7B50BA-1E8D-44C6-9824-E2AE5ABFE947}|sda.backend.minimalapi.Core.Auths.Models\\sda.backend.minimalapi.Core.Auths.Models.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.auths.models\\aspnetusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE7B50BA-1E8D-44C6-9824-E2AE5ABFE947}|sda.backend.minimalapi.Core.Auths.Models\\sda.backend.minimalapi.Core.Auths.Models.csproj|solutionrelative:sda.backend.minimalapi.core.auths.models\\aspnetusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4A76306-E86C-4586-BA30-23A67100FD69}|sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui\\gameendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4A76306-E86C-4586-BA30-23A67100FD69}|sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui.csproj|solutionrelative:sda.backend.minimalapi.ui\\gameendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75E839D3-0459-4727-A6B0-878F61B05BAF}|sda.backend.minimalapi.Core.Games.Models\\sda.backend.minimalapi.Core.Games.Models.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.games.models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75E839D3-0459-4727-A6B0-878F61B05BAF}|sda.backend.minimalapi.Core.Games.Models\\sda.backend.minimalapi.Core.Games.Models.csproj|solutionrelative:sda.backend.minimalapi.core.games.models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77354EEF-75DB-4F93-AD5D-90AC801B492A}|sda.backend.minimalapi.Core.Games.Services\\sda.backend.minimalapi.Core.Games.Services.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.games.services\\sqlservergetallgameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77354EEF-75DB-4F93-AD5D-90AC801B492A}|sda.backend.minimalapi.Core.Games.Services\\sda.backend.minimalapi.Core.Games.Services.csproj|solutionrelative:sda.backend.minimalapi.core.games.services\\sqlservergetallgameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F333098D-4AF0-4B28-86A5-1F6A0DB3B2CD}|sda.backend.minimalapi.Core.Auths.IF\\sda.backend.minimalapi.Core.Auths.IF.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.core.auths.if\\igetallauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F333098D-4AF0-4B28-86A5-1F6A0DB3B2CD}|sda.backend.minimalapi.Core.Auths.IF\\sda.backend.minimalapi.Core.Auths.IF.csproj|solutionrelative:sda.backend.minimalapi.core.auths.if\\igetallauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{249A9AD6-BAC3-4AD2-978C-EFA071624156}|sda.backend.minimalapi.ui.Interfaces\\sda.backend.minimalapi.Core.Games.Interfaces.csproj|d:\\_udemy\\tutorialsec4a18_complet\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui.interfaces\\igetallgameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{249A9AD6-BAC3-4AD2-978C-EFA071624156}|sda.backend.minimalapi.ui.Interfaces\\sda.backend.minimalapi.Core.Games.Interfaces.csproj|solutionrelative:sda.backend.minimalapi.ui.interfaces\\igetallgameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -50,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,136 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameDbContext.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Games.Services\\Models\\GameDbContext.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Games.Services\\Models\\GameDbContext.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Games.Services\\Models\\GameDbContext.cs",
-              "RelativeToolTip": "sda.backend.minimalapi.Core.Games.Services\\Models\\GameDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA1wBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:21:38.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticationDbContext.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Services\\AuthenticationDbContext.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Auths.Services\\AuthenticationDbContext.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Services\\AuthenticationDbContext.cs*",
-              "RelativeToolTip": "sda.backend.minimalapi.Core.Auths.Services\\AuthenticationDbContext.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:21:23.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AspNetUsers.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Models\\AspNetUsers.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Auths.Models\\AspNetUsers.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Models\\AspNetUsers.cs",
-              "RelativeToolTip": "sda.backend.minimalapi.Core.Auths.Models\\AspNetUsers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:03:56.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Game.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Games.Models\\Game.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Games.Models\\Game.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Games.Models\\Game.cs",
-              "RelativeToolTip": "sda.backend.minimalapi.Core.Games.Models\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T20:01:46.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SqlServerGetAllAuthService.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Services\\SqlServerGetAllAuthService.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Auths.Services\\SqlServerGetAllAuthService.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Services\\SqlServerGetAllAuthService.cs*",
-              "RelativeToolTip": "sda.backend.minimalapi.Core.Auths.Services\\SqlServerGetAllAuthService.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAIA3wBkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:52:18.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenticationUser.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Models\\AuthenticationUser.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Auths.Models\\AuthenticationUser.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.Models\\AuthenticationUser.cs",
-              "RelativeToolTip": "sda.backend.minimalapi.Core.Auths.Models\\AuthenticationUser.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA0wEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:48:29.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IGetAllAuthService.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.IF\\IGetAllAuthService.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Auths.IF\\IGetAllAuthService.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Auths.IF\\IGetAllAuthService.cs",
-              "RelativeToolTip": "sda.backend.minimalapi.Core.Auths.IF\\IGetAllAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:45:37.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SqlServerGetAllGameService.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Games.Services\\SqlServerGetAllGameService.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.Core.Games.Services\\SqlServerGetAllGameService.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.Core.Games.Services\\SqlServerGetAllGameService.cs",
-              "RelativeToolTip": "sda.backend.minimalapi.Core.Games.Services\\SqlServerGetAllGameService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T19:36:09.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameEndpoints.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui\\GameEndpoints.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.ui\\GameEndpoints.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui\\GameEndpoints.cs",
-              "RelativeToolTip": "sda.backend.minimalapi.ui\\GameEndpoints.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA1wC0AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T16:41:22.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IGetAllGameService.cs",
-              "DocumentMoniker": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui.Interfaces\\IGetAllGameService.cs",
-              "RelativeDocumentMoniker": "sda.backend.minimalapi.ui.Interfaces\\IGetAllGameService.cs",
-              "ToolTip": "D:\\_UDEMY\\TutorialSec4A18_COMPLET\\projet final\\backend\\sda.backend.minimalapi.ui\\sda.backend.minimalapi.ui.Interfaces\\IGetAllGameService.cs",
-              "RelativeToolTip": "sda.backend.minimalapi.ui.Interfaces\\IGetAllGameService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T16:41:14.904Z",
-              "EditorCaption": ""
             }
           ]
         }

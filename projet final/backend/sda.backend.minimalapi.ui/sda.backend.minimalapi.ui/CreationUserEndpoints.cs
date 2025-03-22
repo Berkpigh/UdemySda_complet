@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.OpenApi;
 using sda.backend.minimalapi.Core.Auths.Models;
+using sda.backend.minimalapi.Core.Auths.IF;
 namespace sda.backend.minimalapi.ui;
 
 public static class CreationUserEndpoints
@@ -10,7 +11,10 @@ public static class CreationUserEndpoints
     {
         var group = routes.MapGroup("/api/auth").WithTags(nameof(CreationUser));
 
-        group.MapPost("/", async (CreationUser model, UserManager<AuthenticationUser> userManager) =>
+        group.MapPost("/", async (CreationUser model, 
+                                    UserManager<AuthenticationUser> userManager,
+                                    IGetAuthService service
+                                    ) =>
         {
             IResult result = TypedResults.BadRequest();
 
@@ -22,11 +26,11 @@ public static class CreationUserEndpoints
                 Email = model.Email
             }, model.Password);
 
-            if (resultCreationUser.Succeeded)
-            {
-                result = TypedResults.Created("/api/auth", model);
-            }
+            if (!resultCreationUser.Succeeded) { return result; }
 
+            AuthenticationUser? authuser = service.GetOne(model.Email);
+
+            result = TypedResults.Created("/api/auth", model);
             return result;
         })
         .WithName("CreateCreationUser")
