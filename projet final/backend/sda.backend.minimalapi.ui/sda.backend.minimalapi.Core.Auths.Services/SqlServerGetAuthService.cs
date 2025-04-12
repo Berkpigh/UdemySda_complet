@@ -22,7 +22,7 @@ namespace sda.backend.minimalapi.Core.Games.Services
             #region Public methods
             public IEnumerable<AuthenticationUser> GetAll()
             {
-                var query = from item in _dbContext.AuthenticationUsers
+                var query = from item in _dbContext.Users
                             //where item.Character != null
                             select item;
 
@@ -31,7 +31,7 @@ namespace sda.backend.minimalapi.Core.Games.Services
             }
             public AuthenticationUser? GetOne(string email)
             {
-                AuthenticationUser? authuser = _dbContext.AuthenticationUsers
+                AuthenticationUser? authuser = _dbContext.Users
                                                .Where(au => au.NormalizedEmail == email.ToUpper()).FirstOrDefault();
                 return authuser;
             }

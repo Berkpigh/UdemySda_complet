@@ -21,7 +21,7 @@ public static class GameEndpoints
 
         group.MapGet("/{id}", (int id) =>
         {
-            //return new Game { ID = id };
+            return new Game { Id = id };
         })
         .WithName("GetGameById")
         .WithOpenApi();

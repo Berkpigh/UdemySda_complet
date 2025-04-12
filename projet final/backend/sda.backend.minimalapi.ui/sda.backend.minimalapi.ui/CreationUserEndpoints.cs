@@ -11,24 +11,25 @@ public static class CreationUserEndpoints
     {
         var group = routes.MapGroup("/api/auth").WithTags(nameof(CreationUser));
 
-        group.MapPost("/", async (CreationUser model, 
-                                    UserManager<AuthenticationUser> userManager,
-                                    IGetAuthService service
+        group.MapPost("/", async (CreationUser model,
+                                    UserManager<AuthenticationUser> userManager
                                     ) =>
         {
             IResult result = TypedResults.BadRequest();
 
             //return TypedResults.Created($"/api/CreationUsers/{model.ID}", model);
-            var resultCreationUser = await userManager.CreateAsync(new AuthenticationUser()
-            {
-                UserName = model.UserName,
-                Id = model.Email,
-                Email = model.Email
-            }, model.Password);
+            if (userManager.FindByEmailAsync(model.Email).Result == null)
+            { 
+                var resultCreationUser = await userManager.CreateAsync(new AuthenticationUser()
+                {
+                    UserName = model.UserName,
+                    //Id = model.Email,
+                    Email = model.Email
+                }, model.Password);
 
-            if (!resultCreationUser.Succeeded) { return result; }
+                if (!resultCreationUser.Succeeded) { return result; }
 
-            AuthenticationUser? authuser = service.GetOne(model.Email);
+            }
 
             result = TypedResults.Created("/api/auth", model);
             return result;

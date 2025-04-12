@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sda.backend.minimalapi.Core.Games.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aac898026665485963727d15fd29fe61cd5bcb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20bd355d3da341a0293555d9d8fdc440d6ea9b5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("sda.backend.minimalapi.Core.Games.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sda.backend.minimalapi.Core.Games.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
