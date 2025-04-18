@@ -1,4 +1,4 @@
-import { Characters } from "../models";
+import { Characters } from "../models"
 
 // TODO : ALERT, delete from code !!!
 const url = 'https://the-one-api.dev/v2/character'
