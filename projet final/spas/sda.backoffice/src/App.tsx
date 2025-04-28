@@ -19,10 +19,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <h2>Redux Complete Tutorial</h2>
-        <Counter />
-      </div>
       <AuthenticationContextProvider>
         <MainMenu></MainMenu>
         <LayoutComponent>

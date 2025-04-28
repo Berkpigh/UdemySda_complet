@@ -16,6 +16,7 @@ export const MainMenu = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/">Accueil</Nav.Link>
+              {authContext.user.status === 'loggedIn' && <Nav.Link as={Link} to="/counter">Compteur</Nav.Link>}
               {authContext.user.status === 'loggedIn' && <Nav.Link as={Link} to="/characters">Les personnages</Nav.Link>}
               {authContext.user.status === 'loggedIn' && <Nav.Link as={Link} to="/games">Les parties</Nav.Link>}
               {authContext.user.status === 'loggedIn' && <Nav.Link as={Link} to="/games/new">Nouvelle partie</Nav.Link>}

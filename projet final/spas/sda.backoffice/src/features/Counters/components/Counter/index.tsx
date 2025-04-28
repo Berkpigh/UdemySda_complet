@@ -1,9 +1,8 @@
-//import { RootState } from "@reduxjs/toolkit/query";
 import { useDispatch, useSelector } from "react-redux"
-import { decrement, incrementAsync } from "../../state/counter/counterSlice";
-import { AppDispatch, RootState } from "../../state/storeRedux";
+import { decrement, incrementAsync } from "../../../../redux/counter/counterSlice";
+import { AppDispatch, RootState } from "../../../../redux/storeRedux";
 
-const Counter = () => {
+export const Counter = () => {
   const count = useSelector((state: RootState) => state.counter.value);
   const dispatch = useDispatch<AppDispatch>();
 
@@ -19,4 +18,3 @@ const Counter = () => {
     </>
   );
 };
-export default Counter;

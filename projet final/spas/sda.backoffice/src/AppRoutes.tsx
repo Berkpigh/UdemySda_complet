@@ -6,12 +6,14 @@ import { PageHome } from "./pages/PageHome";
 import { Login } from "./features/authentication/components/Login";
 import { PrivateRoute } from "./features/authentication/components/PrivateRoute";
 import { PageCreateGame } from "./features/games/pages/PageCreateGame";
+import { PageCounter } from "./features/Counters/pages/PageCounter"
 
 export const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/login" element={<Login></Login>} />
       <Route path="/" element={<PrivateRoute><PageHome></PageHome></PrivateRoute>} />
+      <Route path="/counter" element={<PrivateRoute><PageCounter></PageCounter></PrivateRoute>} />
       <Route path="/characters" element={<PrivateRoute><PageListCharacters></PageListCharacters></PrivateRoute>} />
       <Route path="/games" element={<PrivateRoute><PageListGame></PageListGame></PrivateRoute>} />
       <Route path="/games/new" element={<PrivateRoute><PageCreateGame></PageCreateGame></PrivateRoute>} />
