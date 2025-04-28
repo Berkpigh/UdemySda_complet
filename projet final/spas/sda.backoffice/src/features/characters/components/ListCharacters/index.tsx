@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"
 import { Characters } from "../../models"
 import business from "../../services/characters.application"
 
